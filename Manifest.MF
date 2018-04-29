@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: mas
+Class-Path: ./derby.jar
+Main-Class: clients.Main

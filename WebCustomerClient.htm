@@ -1,0 +1,26 @@
+<HTML>
+
+<HEAD>
+ <TITLE>Catalogue Shop</TITLE>
+</HEAD>
+
+<BODY>
+ <H2>Catalogue Shop</H2>
+ <P>
+ Use with or any browser that supports Java 2, SDK 1.7 or above.
+ <P>
+  The server that this client communicates with should only have
+  read access to the stock list.
+  Otherwise there is a security problem as a remote client could
+  modify the stock list.
+ <P>
+  Check the current availability of products in your local
+  catalogue shop.
+ <P>
+ <APPLET CODE="Clients/WebCustomerClient.class" WIDTH=400 HEIGHT=300>
+    <PARAM NAME="stock" VALUE="rmi://localhost/stock_r">
+ </APPLET>
+</BODY>
+
+</HTML>
+<HTML>
